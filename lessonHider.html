@@ -1,0 +1,11 @@
+<ul>
+	<li ng-repeat="lesson in lessons">{{ lesson }}</li> <!-- directive can no longer talk to our controller  -->
+</ul>
+
+<li>{{ lesson }}</li>
+<button ng-click="dayAlert({ lesson: lesson, day: lessonDay })">Which day?</button>
+
+
+
+
+
